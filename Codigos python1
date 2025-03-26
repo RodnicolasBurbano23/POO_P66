@@ -1,0 +1,46 @@
+print (type(98))
+print (type(98.6))
+print (type("HI!"))
+print (type(True))
+
+
+a=5
+b=3
+resultado=0
+opt1=a/b
+print(opt1)
+print(type(opt1))
+
+
+palabra=" cisco "
+print(palabra*3)
+
+
+str1="cisco"
+str2="networking"
+str3="academy"
+space=" "
+print(str1+space+str2+space+str3)
+
+
+print(str1+str2+str3)
+print(str1,str2,str3)
+
+
+x=2
+print("el valor de x es= "+x)
+
+TypeError: can only concatenate str (not "int") to str
+
+
+x=2
+print("el valor de x es= "+str(x))
+
+
+a=int()
+b=bool()
+c=str()
+d=float()
+x=2
+print("el valor de x es= "+str(x))
+x=str(x)
