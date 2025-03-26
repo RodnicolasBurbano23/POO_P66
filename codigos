@@ -1,0 +1,4 @@
+print (type(98))
+print (type(98.6))
+print (type("HI!"))
+print (type(True))
